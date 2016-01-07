@@ -1,13 +1,21 @@
 .page {
   position: relative;
   min-height: 100vh;
-  background-color: #ddd;
   width: 100%;
 }
 .content {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #eee;
   width: 100%;
+}
+
+
+
+.col_title {
+    height: 50px;
+}
+
+.col_p {
+    color: #02a167;
 }
