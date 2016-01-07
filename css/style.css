@@ -1,0 +1,11 @@
+.parent {
+  position: relative;
+  height: 100vh;
+  background-color: #ddd;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #eee;
+}
