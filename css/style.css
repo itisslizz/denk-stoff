@@ -1,11 +1,13 @@
-.parent {
+.page {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #ddd;
+  width: 100%;
 }
-.child {
+.content {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   background-color: #eee;
+  width: 100%;
 }
