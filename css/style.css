@@ -38,8 +38,6 @@ img {
   width: 100%;
 }
 
-
-
 .col_title {
     height: 50px;
 }
@@ -47,4 +45,11 @@ img {
 .col_p {
     color: #02a167;
     font-family: Utopia;
+}
+
+.titlepage {
+  color: #02a167;
+  font-family: Utopia;
+  font-style: italic;
+  font-size: 18px;
 }
