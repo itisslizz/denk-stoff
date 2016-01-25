@@ -45,6 +45,15 @@ img {
   width: 100%;
 }
 
+.content_middle {
+    /*position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;*/
+    margin-top: 30px;
+
+}
+
 .col_title {
   color: #c08b19;
   font-family: Futura;
@@ -81,12 +90,28 @@ img {
   height: 100%;
 }
 
-.arrow_row {
-  text-align: center;
-  position:relative;
-  bottom: 0;
+.arrow_row_top {
+    text-align: center;
+    position:absolute;
+    top: 0;
+    width: 100%;
 }
 
-.arrow {
-  width: 100px;
+.arrow_row_bottom {
+  text-align: center;
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.arrow_bottom {
+  width: 40px;
+  margin-bottom: 10px;
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}
+.arrow_top {
+  width: 40px;
+  margin-top: 10px;
 }
