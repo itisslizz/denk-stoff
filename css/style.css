@@ -48,8 +48,8 @@ p { hyphens: auto; }
 }
 
 .content_middle {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .col_title {
@@ -70,21 +70,26 @@ p { hyphens: auto; }
 }
 
 .titlepage {
-  float: left;
-  width: 45%;
+  text-align: left;
+  display: inline-block;
+  /*width: 45%;*/
+  padding-left: 364px;
   color: #02a167;
   font-family: Utopia;
   font-style: italic;
   font-size: 18px;
 }
-
+.content_1 {
+  text-align: center;
+}
 .logo_container {
-
+    position: relative;
+    margin: 0 auto;
 }
 
 .logo_img {
-  float: left;
-  width: 55%;
+  display: inline-block;
+  position: absolute;
   height: 100%;
 }
 
@@ -116,7 +121,7 @@ p { hyphens: auto; }
 
 
 
-@media (min-width: 690px) {
+@media (min-width: 690px) and (min-height:800px) {
   .content_middle {
       position: absolute;
       top: 50%;
