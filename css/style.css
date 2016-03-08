@@ -61,12 +61,20 @@ p { hyphens: auto; }
     color: #02a167;
     font-family: Utopia;
     font-size: 14pt;
-    margin-bottom: 0.5rem;
+    /*margin-bottom: 0.5rem;*/
 }
 
 .divider {
   color: #c08b19;
   font-family: Futura;
+}
+
+.divider_w {
+  background-color: #c08b19;
+  height: 2px;
+  width: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .titlepage {
