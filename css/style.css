@@ -80,7 +80,7 @@ p { hyphens: auto; }
 .titlepage {
   text-align: left;
   display: inline-block;
-  /*width: 45%;*/
+  width: 45%;
   padding-left: 560px;
   color: #02a167;
   font-family: Utopia;
