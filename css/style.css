@@ -64,6 +64,10 @@ p { hyphens: auto; }
     margin-bottom: 0;
 }
 
+#aktuell {
+  margin-top: 2.5rem;
+}
+
 .divider {
   color: #c08b19;
   font-family: Futura;
