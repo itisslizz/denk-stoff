@@ -64,7 +64,7 @@ p { hyphens: auto; }
     margin-bottom: 0;
 }
 
-#aktuell {
+.col_title {
   margin-top: 2.5rem;
 }
 
